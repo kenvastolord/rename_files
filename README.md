@@ -17,10 +17,12 @@ A simple Python script to batch rename files in a folder by adding a **custom pr
 
 ## 📂 Project Structure
 
+```
 Rename_Files/
 ├── test/ # Folder containing files to rename
 ├── rename_files.py # Main script
-└── README.md # Documentation
+└── README.md # Documentation`
+```
 
 ---
 
