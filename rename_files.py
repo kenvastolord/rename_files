@@ -13,6 +13,9 @@ suffix = input(
 )
 
 for file in files:
+    if file.startswith("."):
+        continue
+
     old_file_path = os.path.join(directory, file)
 
     if os.path.exists(old_file_path) and os.path.isfile(old_file_path):
